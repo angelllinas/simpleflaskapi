@@ -1,0 +1,9 @@
+version: '4.16'
+
+services:
+  flaskapi: 
+    build: .
+    image: flaskapi
+    container_name: flaskapi
+    ports:
+      - 5000:5000
